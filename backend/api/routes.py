@@ -105,8 +105,8 @@ def coastal_data():
         "sea_state":   sea_state,
         "boating_risk": boating_risk,
 
-        "risk_score":  risk_score,   # 0-100, derived from ML proba
-        "risk_level":  risk_level,   # ML label — same source as score
+        "risk_score":  risk_score,   
+        "risk_level":  risk_level,   
 
         "ml_risk":        ml_risk,
         "ml_probability": ml_proba,
